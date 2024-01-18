@@ -1,0 +1,36 @@
+
+
+/* Style for the search container */
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for the search input and button */
+#searchInput {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    outline: none; /* Remove the default input outline */
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s; /* Add a smooth transition on hover */
+}
+
+#searchButton:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+/* Add any other styles you need for the rest of your website */
+
+

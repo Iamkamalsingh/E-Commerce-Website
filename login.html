@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        /* Common styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #282626;
+            padding: 10px 0;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Login container styles */
+        .login-container {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #3d19f3;
+        }
+        h3{
+            text-align: center;
+            color: #2910c9;
+            size: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #3d19f3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2910c9;
+        }
+        
+        
+
+        /* Back to Home button styles */
+        .back-to-home-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-home-button a {
+            text-decoration: none;
+        }
+
+        .back-to-home-button button {
+            background-color: #3d1be5;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-to-home-button button:hover {
+            background-color: #2910c9;
+        }
+ /* Login buttons styles */
+ .login-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .login-buttons a {
+            text-decoration: none;
+        }
+
+        .login-buttons button {
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .login-buttons button.login-other {
+            background-color: #333;
+        }
+
+        .login-buttons button:hover {
+            background-color: #0e4f8f;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="products.html">Products</a> |
+            <a href="About Us.html">About Us</a> |
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Click Here To login</a>
+        </nav>
+    </header>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login_process.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+
+           <a href="signup.html"><h3>Sign Up</h3></a>
+        
+    </div>
+        </form>
+    </div>
+
+   
+
+   
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Back to Home button -->
+     <div class="back-to-home-button">
+        <a href="index.html">
+            <button>Back to Home</button>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 KS Shopping World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
